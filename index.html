@@ -117,7 +117,7 @@
   <div class="row">
 
     <div class="col-sm-5">
-      <img id="image" alt="Random Image" class="img-responsive" style="width:90%"  alt="Image">
+      <img id="image" alt="Random Image" class="img-responsive" style="width:90%">
     </div>
     <div class="col-sm-7">
         <div class="well" style="height:100%">
@@ -165,15 +165,15 @@
         function blurImage(input) {
           if (input.checked) {
             if (document.getElementById('gray').checked) {
-              document.getElementById('image').style.filter = "grayscale(100%) blur(5px)";
+              document.getElementById('image').style.filter = 'grayscale(100%) blur(5px)';
             } else {
-              document.getElementById('image').style.filter = "blur(5px)";
+              document.getElementById('image').style.filter = 'blur(5px)';
             }
           } else {
             if (document.getElementById('gray').checked) {
-              document.getElementById('image').style.filter = "grayscale(100%)";
+              document.getElementById('image').style.filter = 'grayscale(100%)';
             } else {
-              document.getElementById('image').style.filter = "";
+              document.getElementById('image').style.filter = '';
             }
           }
         }
@@ -182,15 +182,15 @@
           document.getElementById('sepia').checked = false;
           if (input.checked) {
             if (document.getElementById('blur').checked) {
-              document.getElementById('image').style.filter = "grayscale(100%) blur(5px)";
+              document.getElementById('image').style.filter = 'grayscale(100%) blur(5px)';
             } else {
-              document.getElementById('image').style.filter = "grayscale(100%)";
+              document.getElementById('image').style.filter = 'grayscale(100%)';
             }
           } else {
             if (document.getElementById('blur').checked) {
-              document.getElementById('image').style.filter = "blur(5px)";
+              document.getElementById('image').style.filter = 'blur(5px)';
             } else {
-              document.getElementById('image').style.filter = "";
+              document.getElementById('image').style.filter = '';
             }
           }
         }
@@ -199,15 +199,15 @@
           document.getElementById('gray').checked = false;
           if (input.checked) {
             if (document.getElementById('blur').checked) {
-              document.getElementById('image').style.filter = "sepia(1) blur(5px)";
+              document.getElementById('image').style.filter = 'sepia(1) blur(5px)';
             } else {
-              document.getElementById('image').style.filter = "sepia(1)";
+              document.getElementById('image').style.filter = 'sepia(1)';
             }
           } else {
             if (document.getElementById('blur').checked) {
-              document.getElementById('image').style.filter = "blur(5px)";
+              document.getElementById('image').style.filter = 'blur(5px)';
             } else {
-              document.getElementById('image').style.filter = "";
+              document.getElementById('image').style.filter = '';
             }
           }
         }
